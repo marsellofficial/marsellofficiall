@@ -149,6 +149,18 @@ p {
   box-shadow: 0 2px 24px #022b5710;
 }
 
+.rectangle {
+  width: 90px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+  height: 25px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+  background-color: #000000; /* Sesuaikan warna latar belakang kotak sesuai kebutuhan */
+  border-radius: 5px; /* Sesuaikan radius sudut kotak sesuai kebutuhan */
+  text-align: justify;
+  color: white;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 4px;
+}
+
 .card_links {
   display: flex;
   flex-direction: column;
