@@ -1,12 +1,13 @@
 :root {
   --clr-red: #E42424;
-  --clr-blue: #1C8DCC;
+  --clr-blue: #1ccc25;
   --clr-yellow: #E8CC76;
 }
 
 * {
   box-sizing: border-box;
 }
+
 
 html {
   font-size: 62.5%;
@@ -63,6 +64,22 @@ h2::before{
   width: 5rem;
 }
 
+h3{
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #6cb4fc;
+  position: relative;
+}
+
+h3::before{
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  height: .2rem;
+  width: 5rem;
+}
+
 p {
   font-size: 1.4rem;
   color: #434445;
@@ -79,6 +96,32 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999;
+}
+
+.img-profile .square-box {
+  position: absolute;
+  width: 110px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+  height: 25px; /* Sesuaikan ukuran kotak sesuai kebutuhan */
+  top: 90px;
+  border-radius: 5px;
+  background-color: #ff6f00; /* Sesuaikan warna latar belakang kotak sesuai kebutuhan */
+  z-index: 1000;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  padding-top: 4px;
+  padding-left: 1px;
+}
+
+.img-profile .square-box i {
+  position: absolute;
+  left: 15px; /* Menetapkan posisi ikon di sebelah kiri */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.img-profile .square-box span {
+  margin-left: 20px; /* Menetapkan jarak antara ikon dan teks */
 }
 
 .circle {
